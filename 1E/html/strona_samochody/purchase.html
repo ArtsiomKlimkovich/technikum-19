@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Purchase</title>
+  <style>
+    /* Ваши стили CSS здесь */
+    body {
+      background-color: #f2f2f2;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+    .purchase-form {
+      max-width: 400px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    .purchase-form h2 {
+      margin-top: 0;
+      margin-bottom: 20px;
+    }
+    .form-group {
+      margin-bottom: 20px;
+    }
+    .form-group label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    .form-group input {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .submit-button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+    .thank-you {
+      max-width: 400px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    .thank-you h2 {
+      margin-top: 0;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="purchase-form">
+    <h2>Car Purchase</h2>
+    <form style="padding-right: 20px;">
+      <div class="form-group">
+        <label for="nameInput">Name</label>
+        <input type="text" id="nameInput" placeholder="Enter your name">
+      </div>
+      <div class="form-group">
+        <label for="emailInput">Email</label>
+        <input type="email" id="emailInput" placeholder="Enter your email">
+      </div>
+      <div class="form-group">
+        <label for="phoneInput">Phone</label>
+        <input type="tel" id="phoneInput" placeholder="Enter your phone number">
+      </div>
+      <div class="form-group">
+        <label for="carData">Car</label>
+        <textarea id="carData" rows="5" readonly></textarea>
+      </div>
+      <button class="submit-button" onclick="submitForm()">Submit</button>
+    </form>
+  </div>
+
+  <script>
+    function submitForm() {
+      var name = document.getElementById("nameInput").value;
+      var email = document.getElementById("emailInput").value;
+      var phone = document.getElementById("phoneInput").value;
+      var brand = getUrlParam("brand");
+      var model = getUrlParam("model");
+      var price = getUrlParam("price");
+
+      var carData = "Brand: " + brand + "\nModel: " + model + "\nPrice: $" + price;
+
+      document.getElementById("carData").value = carData;
+
+      // Здесь вы можете выполнить логику отправки формы, например, через AJAX-запрос
+
+      // После отправки формы открывается окно с благодарностью
+      openThankYouPage();
+    }
+
+    function openThankYouPage() {
+      var url = "thankyou.html";
+      window.open(url, "_blank");
+    }
+
+    function getUrlParam(param) {
+      var queryString = window.location.search;
+      var urlParams = new URLSearchParams(queryString);
+      return urlParams.get(param);
+    }
+  </script>
+</body>
+</html>

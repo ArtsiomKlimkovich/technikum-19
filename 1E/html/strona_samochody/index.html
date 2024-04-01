@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Car Selection</title>
+  <style>
+    /* Ваши стили CSS здесь */
+    .car-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .car {
+      width: 30%;
+      margin-bottom: 20px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .car h4 {
+      margin-top: 0;
+    }
+    .car img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+    }
+    .purchase-button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Car Selection</h2>
+  <div>
+    <select id="brandSelect" onchange="filterCars()">
+      <option value="all">All Brands</option>
+      <option value="bmw">BMW</option>
+      <option value="mercedes">Mercedes-Benz</option>
+      <option value="audi">Audi</option>
+      <option value="volvo">Volvo</option>
+    </select>
+  </div>
+
+  <div class="car-list">
+    <div class="car" data-brand="bmw">
+      <h4>BMW 3 Series</h4>
+      <img src="bmw_3series.jpg" alt="BMW 3 Series">
+      <p>Price: $50,000</p>
+      <p>Year: 2022</p>
+      <p>Features: ...</p>
+      <button class="purchase-button" onclick="redirectToPurchasePage('BMW', '3 Series', '50000')">Purchase</button>
+    </div>
+    <div class="car" data-brand="bmw">
+      <h4>BMW X5</h4>
+      <img src="bmw_x5.jpg" alt="BMW X5">
+      <p>Price: $70,000</p>
+      <p>Year: 2022</p>
+      <p>Features: ...</p>
+      <button class="purchase-button" onclick="redirectToPurchasePage('BMW', 'X5', '70000')">Purchase</button>
+    </div>
+    <div class="car" data-brand="bmw">
+      <h4>BMW i8</h4>
+      <img src="bmw_i8.jpg" alt="BMW i8">
+      <p>Price: $150,000</p>
+      <p>Year: 2022</p>
+      <p>Features: ...</p>
+      <button class="purchase-button" onclick="redirectToPurchasePage('BMW', 'i8', '150000')">Purchase</button>
+    </div>
+    <div class="car" data-brand="mercedes">
+      <h4>Mercedes-Benz E-Class</h4>
+      <img src="mercedes_eclass.jpg" alt="Mercedes-Benz E-Class">
+      <p>Price: $60,000</p>
+      <p>Year: 2022</p>
+      <p>Features: ...</p>
+      <button class="purchase-button" onclick="redirectToPurchasePage('Mercedes-Benz', 'E-Class', '60000')">Purchase</button>
+    </div>
+    <div class="car" data-brand="mercedes">
+      <h4>Mercedes-Benz S-Class</h4>
+      <img src="mercedes_sclass.jpg" alt="Mercedes-Benz S-Class">
+      <p>Price: $100,000</p>
+      <p>Year: 2022</p>
+      <p>Features: ...</p>
+      <button class="purchase-button" onclick="redirectToPurchasePage('Mercedes-Benz', 'S-Class', '100000')">Purchase</button>
+    </div>
+    <div class="car" data-brand="mercedes">
+      <h4>Mercedes-Benz GLE</h4>
+      <img src="mercedes_gle.jpg" alt="Mercedes-Benz GLE">
+      <p>Price: $80,000</p>
+      <p>Year: 2022</p>
+      <p>Features: ...</p>
+      <button class="purchase-button" onclick="redirectToPurchasePage('Mercedes-Benz', 'GLE', '80000')">Purchase</button>
+    </div>
+    <div class="car" data-brand="audi">
+      <h4>Audi A4</h4>
+      <img src="audi_a4.jpg" alt="Audi A4">
+      <p>Price: $45,000</p>
+      <p>Year: 2022</p>
+      <p>Features: ...</p>
+      <button class="purchase-button" onclick="redirectToPurchasePage('Audi', 'A4', '45000')">Purchase</button>
+    </div>
+    <div class="car" data-brand="audi">
+      <h4>Audi Q7</h4>
+      <img src="audi_q7.jpg" alt="Audi Q7">
+      <p>Price: $85,000</p>
+      <p>Year: 2022</p>
+      <p>Features: ...</p>
+      <button class="purchase-button" onclick="redirectToPurchasePage('Audi', 'Q7', '85000')">Purchase</button>
+    </div>
+    <div class="car" data-brand="audi">
+      <h4>Audi R8</h4>
+      <img src="audi_r8.jpg" alt="Audi R8">
+      <p>Price: $170,000</p>
+      <p>Year: 2022</p>
+      <p>Features: ...</p>
+      <button class="purchase-button" onclick="redirectToPurchasePage('Audi', 'R8', '170000')">Purchase</button>
+    </div>
+    <div class="car" data-brand="volvo">
+      <h4>Volvo XC60</h4>
+      <img src="volvo_xc60.jpg" alt="Volvo XC60">
+      <p>Price: $55,000</p>
+      <p>Year: 2022</p>
+      <p>Features: ...</p>
+      <button class="purchase-button" onclick="redirectToPurchasePage('Volvo', 'XC60', '55000')">Purchase</button>
+    </div>
+    <div class="car" data-brand="volvo">
+      <h4>Volvo S90</h4>
+      <img src="volvo_s90.jpg" alt="Volvo S90">
+      <p>Price: $65,000</p>
+      <p>Year: 2022</p>
+      <p>Features: ...</p>
+      <button class="purchase-button" onclick="redirectToPurchasePage('Volvo', 'S90', '65000')">Purchase</button>
+    </div>
+    <div class="car" data-brand="volvo">
+      <h4>Volvo XC90</h4>
+      <img src="volvo_xc90.jpg" alt="Volvo XC90">
+      <p>Price: $75,000</p>
+      <p>Year: 2022</p>
+      <p>Features: ...</p>
+      <button class="purchase-button" onclick="redirectToPurchasePage('Volvo', 'XC90', '75000')">Purchase</button>
+    </div>
+  </div>
+
+  <script>
+    function filterCars() {
+      var select = document.getElementById("brandSelect");
+      var brand = select.value;
+      var cars = document.getElementsByClassName("car");
+
+      for (var i = 0; i < cars.length; i++) {
+        var car = cars[i];
+        var carBrand = car.getAttribute("data-brand");
+
+        if (brand === "all" || brand === carBrand) {
+          car.style.display = "block";
+        } else {
+          car.style.display = "none";
+        }
+      }
+    }
+
+    function redirectToPurchasePage(brand, model, price) {
+      var url = "purchase.html" + "?brand=" + brand + "&model=" + model + "&price=" + price;
+      window.open(url, "_blank");
+    }
+  </script>
+</body>
+</html>
