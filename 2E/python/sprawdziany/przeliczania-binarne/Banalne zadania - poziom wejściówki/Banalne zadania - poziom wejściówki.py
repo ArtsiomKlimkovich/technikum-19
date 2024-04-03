@@ -19,18 +19,20 @@ def parzystaSuma (a, b):
     print ()
 
 def parzystaRoznica(a, b):
-    if (int(a[-1]) % 2 == 0 and int(b[-1])) or (int(a[-1]) % 2 != 0 and int(b[-1])):
+    if (int(a[-1]) % 2 == 0 and int(b[-1])) or (int(a[-1]) % 2 != 0 and int(b[-1]) % 2 != 0):
         print ("roznica jest parzysta")
     else:
         print ("roznicy nie jest parzysta")
     print ()
 def parzystyIloczn(a, b):
-    if (int(a[-1]) % 2 == 0 and int(b[-1]) == 0) or (int(a[-1]) % 2 != 0 and int(b[-1])):
-        print ("iloczyna jest parzysty")
+    if (int(a[-1]) % 2 == 0 and int(b[-1]) == 0) or (int(a[-1]) % 2 != 0 and int(b[-1]) % 2 != 0):
+        print ("iloczyn jest parzysty")
     else:
         print ("iloczyn nie jest parzysty")
     print ()
-
+    
 parzystaSuma (a, b)
 parzystaRoznica (a, b)
 parzystyIloczn(a, b)
+# zad 3
+
