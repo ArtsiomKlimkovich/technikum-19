@@ -122,13 +122,13 @@ print ()
 # 5. Metoda Monte Carlo
 import random as r
 def MonteCarlo (n):
-    dotsInCirlce = 0
+    dotsInCircle = 0
     for i in range (n):
         x = r.uniform (-1, 1)
         y = r.uniform (-1, 1)
         if x**2 + y**2 <= 1:
-            dotsInCirlce += 1
-    return 4 * dotsInCirlce / n
+            dotsInCircle += 1
+    return 4 * dotsInCircle/ n
     
 print (MonteCarlo(10))
 print (MonteCarlo(100))
