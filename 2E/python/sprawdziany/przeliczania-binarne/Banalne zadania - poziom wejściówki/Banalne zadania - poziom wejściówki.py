@@ -16,8 +16,7 @@ b = input("Wprowadź drugą liczbę binarną: ")
 
 # Funkcja sprawdzająca parzystość sumy
 def parzystaSuma(a, b):
-    suma = int(a, 2) + int(b, 2)  # Konwersja z binarnej na dziesiętną i dodanie
-    if suma % 2 == 0:
+    if a[-1] == b[-1]:
         print("Suma jest parzysta.")
     else:
         print("Suma nie jest parzysta.")
@@ -25,8 +24,7 @@ def parzystaSuma(a, b):
 
 # Funkcja sprawdzająca parzystość różnicy
 def parzystaRoznica(a, b):
-    roznica = abs(int(a, 2) - int(b, 2))  # Konwersja i obliczenie różnicy
-    if roznica % 2 == 0:
+    if a[-1] == b[-1]:
         print("Różnica jest parzysta.")
     else:
         print("Różnica nie jest parzysta.")
@@ -34,8 +32,7 @@ def parzystaRoznica(a, b):
 
 # Funkcja sprawdzająca parzystość iloczynu
 def parzystyIloczn(a, b):
-    iloczyn = int(a, 2) * int(b, 2)  # Konwersja i obliczenie iloczynu
-    if iloczyn % 2 == 0:
+    if (a[-1] == "1" and b[-1] == "1") or (a[-1] == "0" and b[-1] == "0"):
         print("Iloczyn jest parzysty.")
     else:
         print("Iloczyn nie jest parzysty.")
