@@ -1,38 +1,47 @@
-# zad 1
+# Zadanie 1: Sprawdź czy wpisana przez użytkownika liczba binarna jest parzysta
 
-n = input("wprowadz liczbe binarna: ")
+n = input("Wprowadź liczbę binarną: ")
+
+# Sprawdź ostatni bit liczby binarnej
 if n[-1] == "0":
-    print ("wpisana liczba jest parzysta")
+    print("Wpisana liczba jest parzysta.")
 else:
-    print ("wpisana liczba nie jest parzysta")
-print ()
-# zad 2
-a = input ("wprowadz pierwsza liczbe binarna: ")
-print ()
-b = input ("wprowadz druga liczbe binarna: ")
-print ()
-def parzystaSuma (a, b):
-    if (int(a[-1]) % 2 == 0 and int (b[-1]) == 0) or (int(a[-1]) % 2 != 0 and int(b[-1]) % 2 != 0):
-        print ("suma jest parzysta")
-    else:
-        print ("suma nie jest parzysta")
-    print ()
+    print("Wpisana liczba nie jest parzysta.")
+print()
 
+# Zadanie 2: Określ parzystość sumy/różnicy/iloczynu dwóch liczb binarnych
+
+a = input("Wprowadź pierwszą liczbę binarną: ")
+b = input("Wprowadź drugą liczbę binarną: ")
+
+# Funkcja sprawdzająca parzystość sumy
+def parzystaSuma(a, b):
+    suma = int(a, 2) + int(b, 2)  # Konwersja z binarnej na dziesiętną i dodanie
+    if suma % 2 == 0:
+        print("Suma jest parzysta.")
+    else:
+        print("Suma nie jest parzysta.")
+    print()
+
+# Funkcja sprawdzająca parzystość różnicy
 def parzystaRoznica(a, b):
-    if (int(a[-1]) % 2 == 0 and int(b[-1])) or (int(a[-1]) % 2 != 0 and int(b[-1]) % 2 != 0):
-        print ("roznica jest parzysta")
+    roznica = abs(int(a, 2) - int(b, 2))  # Konwersja i obliczenie różnicy
+    if roznica % 2 == 0:
+        print("Różnica jest parzysta.")
     else:
-        print ("roznicy nie jest parzysta")
-    print ()
-def parzystyIloczn(a, b):
-    if (int(a[-1]) % 2 == 0 and int(b[-1]) == 0) or (int(a[-1]) % 2 != 0 and int(b[-1]) % 2 != 0):
-        print ("iloczyn jest parzysty")
-    else:
-        print ("iloczyn nie jest parzysty")
-    print ()
-    
-parzystaSuma (a, b)
-parzystaRoznica (a, b)
-parzystyIloczn(a, b)
-# zad 3
+        print("Różnica nie jest parzysta.")
+    print()
 
+# Funkcja sprawdzająca parzystość iloczynu
+def parzystyIloczn(a, b):
+    iloczyn = int(a, 2) * int(b, 2)  # Konwersja i obliczenie iloczynu
+    if iloczyn % 2 == 0:
+        print("Iloczyn jest parzysty.")
+    else:
+        print("Iloczyn nie jest parzysty.")
+    print()
+
+# Wywołanie funkcji dla podanych liczb binarnych
+parzystaSuma(a, b)
+parzystaRoznica(a, b)
+parzystyIloczn(a, b)
