@@ -47,4 +47,12 @@ liczba4 = "11001" # 49
 print (f"Wynik dodawania binarnego liczb o roznej dlugosci {liczba3} ({int(liczba3, 2)}) + {liczba4} ({int(liczba4, 2)}) = {addBinary_differentLength(liczba4,liczba4)} ({int(addBinary_differentLength(liczba3,liczba4), 2)})")
 print ()
 # 3. Wypisz wszystkie liczby binarne sześciocyfrowe, w których liczba jedynek jest 2 razy większa od liczby zer.
+def generate_binary_numbers():
+    for i in range(2 ** 6):  # 2^6 = 64
+        binary = bin(i)[2:].zfill(6)  # Konwersja na binarny format, uzupełnienie zerami do 6 cyfr
+        if binary.count('1') == 2 * binary.count('0'):  # Sprawdzenie warunku
+            print(binary)
+
+print ("Wszystkie liczby binarne sześciocyfrowe, w których liczba jedynek jest 2 razy większa od liczby zer:")
+generate_binary_numbers()
 
