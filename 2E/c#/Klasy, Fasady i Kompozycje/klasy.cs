@@ -134,7 +134,7 @@ class MediaPlayer {
     public void stop() { }
 }
 
-// Composite_UML
+// Composite_UML (Fasada 4)
 class Component {
     void operation() { }
 }
@@ -153,4 +153,34 @@ class Composite : Component {
     public void add() { }
     public void remove() { }
     public void getChild() { }
+}
+
+// Composite 2(Fazada 5)
+abstract class Graphic {
+    public abstract void draw();
+}
+
+class Line : Graphic {
+    public override void draw() { }
+}
+
+class Rectangle : Graphic {
+    public override void draw() { }
+}
+
+class Text : Graphic {
+    public override void draw() { }
+}
+
+class Picture : Graphic {
+    List<Graphic> list = new List<Graphic>();
+    public override void draw() { }
+    public void add(Graphic g) {
+        list.Add(g);
+    }
+
+    public void remove(Graphic g) { }
+
+    public void getChild(int i) { }
+
 }
