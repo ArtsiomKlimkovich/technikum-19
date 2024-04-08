@@ -33,12 +33,11 @@ class Worker : USer {
 }
 
 // Fasada 2
-class Client { }
-
-class WashingMachine {
-    public void startWashing() { }
-
-    public void method1() { }
+class Client {
+    WashingMachine washingMachine;
+    public void wash(WashingMachine washingMachine) {
+        this.washingMachine = washingMachine
+    }
 }
 
 class Washing {
@@ -51,4 +50,20 @@ class Rinsing {
 
 class Spinning {
     public void spin() { }
+}
+class WashingMachine {
+
+    Washing washing;
+    Rinsing rinsing;
+    Spinning spinning;
+
+    public void startWashing() { }
+
+    public void washThis() {
+        washing = new Washing();
+        rinsing = new Rinsing();
+        spinning = new Spinning();
+    }
+
+    public void method1() { }
 }
