@@ -55,3 +55,34 @@ n = 6
 # n = int(input("wprowadz liczbe: "))
 print (f"Wszystkie liczby binarne {n} cyfrowe, w których liczba jedynek jest 2 razy większa od liczby zer:")
 generate_binary_numbers(n)
+
+# GRATIS
+# 1. Napisz algorytm szybkiego potęgowania w wersji iteracyjnej
+def pot_szybkie(a, b): #potęgowanie szybkie a^b
+    w = 1
+    while b > 0:
+        if b % 2: # jeśli b%2 == 1
+            w *= a
+        a *= a
+        b //= 2
+    return w
+
+a = 2
+b = 25
+# a = int(input())
+# b = int(input())
+print (f"potegowanie szybkie {a} ^ {b} = {pot_szybkie(a, b)}")
+print()
+# 2. Napisz algorytm szybkiego potęgowania w wersji rekurencyjnej
+def pot_szybkie_reku(a, b):
+   if b == 0: return 1
+   if b % 2: # jeśli b%2 == 1
+        return a * pot_szybkie(a, b-1) # odłączamy jedno 'a', aby 'b' było parzyste
+   w = pot_szybkie(a, b//2)
+   return w * w
+
+a = 2
+b = 25
+# a = int(input())
+# b = int(input())
+print (f"potegowanie szybkie rekurencyjnie {a} ^ {b} = {pot_szybkie_reku(a, b)}")
