@@ -37,8 +37,8 @@ def addBinary_differentLength (a, b):
         
     return res
 
-liczba3 = "1001001" # 87
-liczba4 = "11001" # 49
+liczba3 = "1001001" # 73
+liczba4 = "11001" # 25
 # liczba3 = int(input("wprowadz 1 liczbe binarna: "))
 # liczba4 = int(input("wprowadz 2 liczbe binarna: "))
 
