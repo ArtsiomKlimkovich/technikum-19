@@ -1,10 +1,10 @@
 zadanie 4 z przeliczen binarnych - https://cke.gov.pl/images/_EGZAMIN_MATURALNY_OD_2015/Arkusze_egzaminacyjne/2015/formula_od_2015/MIN-R2_1P-152.pdf
 
 Zadanie 4.1
-Podaj, ile liczb z pliku liczby.txt ma w swoim zapisie binarnym więcej zer niż jedynek
+Podaj, ile liczb(przykladowe liczby) ma w swoim zapisie binarnym więcej zer niż jedynek
 
 Zadanie 4.2
-Podaj, ile liczb w pliku liczby.txt jest podzielnych przez 2 oraz ile liczb jest podzielnych przez 8 
+Podaj, ile liczb(przykladowe liczby) jest podzielnych przez 2 oraz ile liczb jest podzielnych przez 8 
 
 Zadanie 4.3
-Znajdź najmniejszą i największą liczbę w pliku liczby.txt. Jako odpowiedź podaj numery wierszy, w których się one znajdują. 
+Znajdź najmniejszą i największą liczbę(przykladowe liczby) Jako odpowiedź podaj numery wierszy, w których się one znajdują. 
