@@ -48,7 +48,7 @@ print ()
 def generate_binary_numbers():
     for i in range(2 ** 6):  # 2^6 = 64
         binary = bin(i)[2:].zfill(6)  # Konwersja na binarny format, uzupełnienie zerami do 6 cyfr
-        if binary.count('1') == 2 * binary.count('0'):  # Sprawdzenie warunku
+        if binary.count('1') == 2 * binary.count('0'):
             print(binary)
 
 print ("Wszystkie liczby binarne sześciocyfrowe, w których liczba jedynek jest 2 razy większa od liczby zer:")
