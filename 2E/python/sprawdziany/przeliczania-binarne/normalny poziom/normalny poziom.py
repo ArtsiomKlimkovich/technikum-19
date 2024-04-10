@@ -46,7 +46,7 @@ print (f"Wynik dodawania binarnego liczb o roznej dlugosci {liczba3} ({int(liczb
 print ()
 # 3. Wypisz wszystkie liczby binarne sześciocyfrowe, w których liczba jedynek jest 2 razy większa od liczby zer.
 def generate_binary_numbers(n):
-    for i in range(2 ** n):  # 2^6 = 64
+    for i in range(2 ** (n-1), 2**n):  # 2^6 = 64
         binary = bin(i)[2:].zfill(n)
         if binary.count('1') == 2 * binary.count('0'):
             print(binary)
