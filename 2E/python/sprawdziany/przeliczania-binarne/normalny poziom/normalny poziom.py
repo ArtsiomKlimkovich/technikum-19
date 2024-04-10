@@ -77,8 +77,8 @@ print()
 def pot_szybkie_reku(a, b):
    if b == 0: return 1
    if b % 2: # jeśli b%2 == 1
-        return a * pot_szybkie(a, b-1) # odłączamy jedno 'a', aby 'b' było parzyste
-   w = pot_szybkie(a, b//2)
+        return a * pot_szybkie_reku(a * a, b-1) # odłączamy jedno 'a', aby 'b' było parzyste
+   w = pot_szybkie_reku(a * a, b//2)
    return w * w
 
 a = 2
