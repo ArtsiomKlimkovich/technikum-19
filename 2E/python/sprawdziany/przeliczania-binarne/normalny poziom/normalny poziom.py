@@ -22,12 +22,10 @@ print (f"Wynik dodawania binarnego {liczba1} ({int(liczba1, 2)}) + {liczba2} ({i
 print()
 # 2. Napisz algorytm dodawania dwóch liczb binarnych o różnej długości.
 def addBinary_differentLength (a, b):
-    if len (a) > len(b):
-        for i in range (len(a)-len(b)):
-            b = "0" + b
-    else:
-        for i in range (len(b)-len(a)):
-            a = "0" + a
+    max_length = max(len(a), len(b))
+    a = a.zfill(max_length)
+    b = b.zfill(max_length)
+    
     res = ""
     carry = 0
     for i in range (len(a) - 1, -1, -1):
