@@ -1,1 +1,15 @@
+zadanie 2.1 - 2.3 - https://arkusze.pl/maturalne/informatyka-2023-maj-matura-rozszerzona.pdf
 
+Zadanie 2.1
+Zapisz algorytm, który dla danejdodatniej całkowitej liczby n obliczy liczbę bloków w jej zapisie binarnym.
+Przykład:
+Dla liczby 67 wynikiem jest 3, ponieważ 67 w zapisie binarnym to 1000011 (dwa bloki jedynek
+i jeden blok zer).
+Dla liczby 245 wynikiem jest 5, ponieważ 245 w zapisie binarnym to 11110101 (trzy bloki
+jedynek i dwa bloki zer).
+
+Zadanie 2.2
+Podaj, ile liczb(przykladowe) składa się z co najwyżej dwóch bloków
+
+Zadanie 2.3. (0–2)
+Wypisz największą z liczb(przekladowe)
