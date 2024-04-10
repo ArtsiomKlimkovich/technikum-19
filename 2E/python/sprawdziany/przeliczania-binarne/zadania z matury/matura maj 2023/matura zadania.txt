@@ -7,6 +7,13 @@ Dla liczby 67 wynikiem jest 3, ponieważ 67 w zapisie binarnym to 1000011 (dwa b
 i jeden blok zer).
 Dla liczby 245 wynikiem jest 5, ponieważ 245 w zapisie binarnym to 11110101 (trzy bloki
 jedynek i dwa bloki zer).
+Uwaga: W zapisie algorytmu możesz korzystać tylko z instrukcji sterujących, operatorów
+arytmetycznych: dodawania, odejmowania, mnożenia, dzielenia, dzielenia całkowitego i reszty
+z dzielenia; operatorów logicznych, porównań, instrukcji przypisania lub samodzielnie
+napisanych funkcji i procedur wykorzystujących powyższe operacje. Zabronione jest
+używanie funkcji wbudowanych oraz operatorów innych niż wymienione, dostępnych
+w językach programowania, w tym zwłaszcza funkcji zamiany między systemami pozycyjnymi
+i konwersji między typami danych.
 
 Zadanie 2.2
 Podaj, ile liczb(przykladowe) składa się z co najwyżej dwóch bloków
