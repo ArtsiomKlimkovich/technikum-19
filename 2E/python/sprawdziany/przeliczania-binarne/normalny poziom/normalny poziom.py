@@ -86,3 +86,6 @@ b = 25
 # a = int(input())
 # b = int(input())
 print (f"potegowanie szybkie rekurencyjnie {a} ^ {b} = {pot_szybkie_reku(a, b)}")
+
+# ZAD:
+# 1
