@@ -18,5 +18,5 @@ i konwersji między typami danych.
 Zadanie 2.2
 Podaj, ile liczb(przykladowe) składa się z co najwyżej dwóch bloków
 
-Zadanie 2.3. (0–2)
+Zadanie 2.3
 Wypisz największą z liczb(przekladowe)
