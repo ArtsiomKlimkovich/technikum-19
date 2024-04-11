@@ -27,7 +27,7 @@ def binToDec2 (n): # (schemat Hornera) dla kazdego 1 lub 0 w str(n) dodaje do ca
     return res
 
 n = int (input("input a number: "))
-print (f"liczba {n} w systemie dwojkowym to {decToBin(n)}")
+print (f"liczba {n} w systemie dziesietnym to {DecToBin(n)}")
 print (f"liczba {n} w systemie dwojkowym to ", end="")
 decToBinReku(n)
 print ()
