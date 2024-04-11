@@ -39,14 +39,12 @@ print()
 # 4.3
 binNums3 = ["101011010011001100111", "10001001011101010", "1001000", "101010011100", "1000110"] # przykladowe
 def maxAndMinBin(binNums):
-    # Znajdujemy maksymalną i minimalną długość liczby binarnej w liście
     max_length = len(max(binNums, key=len))
     min_length = len(min(binNums, key=len))
 
     max_index = 0
     min_index = 0
 
-    # Wyrównujemy wszystkie liczby binarne do maksymalnej długości poprzez dodanie zer na początku krótszych liczb
     binNums_aligned = [num.zfill(max_length) for num in binNums] # zfill jest wbudowana, ale mozemy zrobic sami
 
     # Porównujemy liczby binarne jako ciągi znaków
