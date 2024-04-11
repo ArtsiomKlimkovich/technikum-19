@@ -8,12 +8,12 @@ def decToBin(n): # zwykly sposob przez dzielenie liczby przez 2 i tak do 1, dale
 
 def decToBinReku(n): # rekurencyjnie bez return przez print(), najpierw robi stos liczby podzielonej przez 2 i tak do 1, potem print modulo (2)
     if n == 0: return 0;
-    binToDecReku(n // 2)
+    decToBinReku(n // 2)
     print (n % 2, end="")
 
 def decToBinReku2(n): # rekurencyjnie z returnem, robi stos liczby prez 2 i tak do 1, czyli od 1 do 39 dodaje str modulo od 1 do 39 modulo(2)
     if n == 0: return "";
-    return binToDecReku2(n // 2) + str(n % 2)
+    return decToBinReku2(n // 2) + str(n % 2)
 
 def binToDec(s): # idzie od konca liczby i dodaje do res od konca 2 do potegi i
     res = 0
