@@ -1,0 +1,18 @@
+zadania 3.1 - 3.3 - https://arkusze.pl/maturalne/informatyka-2023-czerwiec-matura-rozszerzona.pdf
+
+Zadanie 3.1
+Liczbę binarną nazywamy zrównoważoną, gdy zawiera tyle samo zer i jedynek, natomiast prawie zrównoważoną, gdy liczba jedynek różni się od liczby zer o 1.
+Podaj, czy liczba binarna usera jest zrównoważona oraz czy jest liczba binarna prawie zrównoważona
+
+Zadanie 3.2
+Anagramy cyfrowe to liczby utworzone z tego samego zestawu cyfr ustawionych w różnych kolejnościach. Przy tym pierwsza cyfra liczby nie może być równa zero.
+Znajdź wszystkie takie liczby binarne 8-cyfrowe (przykladowe), z których można utworzyć największą liczbę anagramów
+
+Zadanie 3.3
+Podaj największą wartość bezwzględną różnicy między sąsiednimi liczbami (to jest liczbami zapisanymi w sąsiednich wierszach np. 1 i 2 wierszu, 2 i 3 wierszu itd.)
+Tę wartość podaj w zapisie binarnym.
+
+Zadanie 3.4.
+Zamień wszystkie liczby binarne (przykladowe liczby) na ich odpowiedniki w systemie dziesiętnym. Następnie spośród otrzymanych liczb dziesiętnych:
+a) podaj, ile jest takich, w których nie występuje cyfra zero
+b) podaj liczbę, która ma największą sumę różnych cyfr (jeśli liczb, które mają tę samą, największą sumę różnych cyfr, jest więcej niż jedna – podaj tę, która występuje jako pierwsza).
