@@ -76,10 +76,9 @@ print()
 # 2. Napisz algorytm szybkiego potęgowania w wersji rekurencyjnej
 def pot_szybkie_reku(a, b):
    if b == 0: return 1
-   if b % 2: # jeśli b%2 == 1
-        return a * pot_szybkie_reku(a * a, b // 2) # odłączamy jedno 'a', aby 'b' było parzyste
-   w = pot_szybkie_reku(a * a, b//2)
-   return w * w
+    if b % 2 == 1:
+        return sp2(a * a, b // 2) * a
+    return sp2(a * a, b // 2)
 
 a = 2
 b = 25
