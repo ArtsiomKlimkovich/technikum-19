@@ -117,7 +117,9 @@ namespace Zadania_testowe_na_sprawdzian_kolekcj {
             // zad 6
             Stack<int> stackOf13 = new Stack<int>();
             for (int i = 13; i <= 100; i += 13) {
-                stackOf13.Push(i);
+                if (i % 2 != 0){
+                    stackOf13.Push(i);
+                }
             }
             foreach (int num in stackOf13) {
                 Console.Write(num + " ");
