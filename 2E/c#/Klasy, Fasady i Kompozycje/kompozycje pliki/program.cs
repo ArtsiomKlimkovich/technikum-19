@@ -5,13 +5,14 @@ Katalog k3 = new Katalog("Rozne");
 
 d1.dodaj(k1);
 d1.dodaj(k2);
-d1.dodaj(k2);
+d1.dodaj(k3);
 
 Plik z1 = new Plik("foto1");
 Plik z2 = new Plik("foto2");
 k1.dodaj(z1);
 k1.dodaj(z2);
 
+d1.wyswietl();
 abstract class Wierzcholek {
     public string name;
     public abstract void wyswietl();
@@ -23,7 +24,7 @@ class Plik : Wierzcholek {
     }
 
     public override void wyswietl() {
-        Console.WriteLine("--");
+        Console.Write("--");
         Console.WriteLine(name);
     }
 }
@@ -39,7 +40,7 @@ class Katalog : Wierzcholek {
     public override void wyswietl() {
         Console.WriteLine(name);
         foreach (var item in wierzcholki) {
-            Console.WriteLine("--");
+            Console.Write("--");
             item.wyswietl();
         }
     }
