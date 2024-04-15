@@ -1,0 +1,4 @@
+zad 1
+Napisz algorytm, który dla danej dodatniej całkowitej liczby n obliczy, ile różnych liczb binarnych można utworzyć, używając wyłącznie cyfr 0 i 1, które nie zawierają więcej niż 3 jedynek pod rząd.
+
+zad 2
