@@ -1,0 +1,13 @@
+zad 1
+Napisz algorytm, który dla danej dodatniej całkowitej liczby n obliczy, ile różnych liczb binarnych można utworzyć, używając wyłącznie cyfr 0 i 1, które nie zawierają więcej niż 3 jedynek pod rząd.
+
+zad 2
+Znajdź wszystkie liczby binarne o długości 10, które są palindromami (czytane od lewej do prawej i od prawej do lewej są takie same), ale także są liczbowo podzielne przez 7.
+
+zad 3
+Utwórz algorytm, który dla danej liczby binarnej n o długości 16 zwróci liczbę bloków, które można utworzyć poprzez podział ciągu cyfr 1 na dowolną ilość części, tak 
+aby każda z tych części zawierała przynajmniej jedną cyfrę 0, a suma cyfr w każdym bloku była parzysta.
+
+zad 4
+ Rozważmy ciąg liczb binarnych generowany według reguły: pierwszy element to 1, drugi element to 10, a każdy kolejny element jest sumą dwóch poprzednich elementów.
+Znajdź numer elementu w tym ciągu, który jest największy i zawiera najwięcej różnych cyfr.
