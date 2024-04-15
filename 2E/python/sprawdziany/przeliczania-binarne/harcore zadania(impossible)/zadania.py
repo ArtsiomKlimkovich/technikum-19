@@ -17,3 +17,17 @@ def printBinarySequence (n, prefix="", lastDigit=0, OneInRow=0):
     return total
 n = int(input("input bin num: "))
 print (f"dla {n} ilosc ciagow jest to {printBinarySequence(n)}")
+
+def generate_binary_palindromes(length):
+    palindromes = []
+    for i in range(2 ** ((length + 1) // 2)):
+        palindrome = bin(i)[2:]
+        palindrome = '0' * ((length + 1) // 2 - len(palindrome)) + palindrome
+        palindrome += palindrome[:-1][::-1]  # Dodajemy odwroconą część bez ostatniego elementu, aby uniknąć podwójnego dodawania dla liczb o parzystej długości
+        palindromes.append(palindrome)
+    return palindromes
+
+# zad 2
+palindromes = generate_binary_palindromes(10)
+for palindrome in palindromes:
+    print(palindrome)
