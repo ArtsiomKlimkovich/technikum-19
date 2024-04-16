@@ -1,0 +1,17 @@
+zadanie 67.1 - 67.4 - https://www.oke.waw.pl/new/download/files/File/CKE/2016/mat/Matura_Zbiór_zadań_Informatyka.pdf
+
+zad 67.1
+Podaj wartości F10, F20, F30, F40. Zapisz każdą z liczb w osobnym wierszu.
+
+zad 67.2
+Znajdź wszystkie liczby pierwsze wśród liczb F1, F2, … , F40. Zapisz każdą z liczb w osobnym wierszu. 
+
+zad 67.3
+Dla pierwszych 40 liczb Fibonacciego utwórz binarny fraktal Fibonacciego:
+• Wypisz reprezentację binarną wszystkich liczb Fibonacciego od F1 do F40.
+• Wyrównaj długości reprezentacji binarnych wszystkich liczb Fibonacciego od F1 do
+F40 i na ich podstawie sporządź obraz binarnego fraktala Fibonacciego. 
+
+zad 67.4
+Podaj w zapisie binarnym wyrazy ciągu Fibonacciego z zakresu od F1 do F40, które w tym
+zapisie mają dokładnie 6 jedynek.
