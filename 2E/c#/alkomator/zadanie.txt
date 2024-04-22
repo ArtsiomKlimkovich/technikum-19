@@ -1,1 +1,15 @@
+Program w konsoli.
+User chce wysłać wiadomość do koleżanki
+System sprawdza, czy jest zdolny do tego przez przydzielenie mu zadania matematycznego.
+W przypadku poprawnego rozwiązania pozwala napisać wiadomość i wybrać odbiorcę.
 
+Stwórz instalkę tego programu na system Windows.
+
+
+Spec tech:
+1. Funkcja wybierz adresata
+2. Funkcja napisz wiadomość
+3. Funkcja wyślij
+4. Funkcja sprawdź czy jest zdolny.
+
+Niech system wysyła wiadomość poprzez zapisanie jej w pliku wiadomosc.txt w katalogu programu.
