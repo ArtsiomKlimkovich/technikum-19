@@ -1,0 +1,10 @@
+Menu Restauracji "La Dolce Vita"
+-- Zupy
+   -- Zupa Pomidorowa - $5.99
+   -- Zupa Krem z Brokułów - $6.49
+-- Dania Główne
+   -- Spaghetti Bolognese - $12.99
+   -- Filet z Kurczaka z Grill - $15.99
+-- Desery
+   -- Tiramisu - $7.49
+   -- Sernik Waniliowy - $6.99
