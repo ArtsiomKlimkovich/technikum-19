@@ -1,0 +1,18 @@
+// Fasada 7
+interface Employee {
+    public string Name { get; set; }
+}
+
+class Junior : Employee {
+    public string Name { get; set; }
+}
+
+class Manager : Employee {
+    List<Employee> employees = new List<Employee>();
+    public string Name { get; set; }
+
+    public void addJunior(Junior junior) {
+        employees.Add(junior);
+    }
+    public void removeJunior(string name) { }
+}
