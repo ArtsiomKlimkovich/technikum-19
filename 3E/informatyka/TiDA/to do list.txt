@@ -1,0 +1,5 @@
+Jak działa program?
+Program wyświetla menu z opcjami.
+Użytkownik może dodać nowe zadanie, usunąć istniejące lub wyświetlić wszystkie zadania.
+Wprowadzone zadania są przechowywane w liście w pamięci.
+Gdy użytkownik wybiera opcję, program wykonuje odpowiednią akcję.
