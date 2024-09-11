@@ -1,0 +1,108 @@
+Faktoryzacja liczb – rozkład na czynniki pierwsze, liczby Smitha
+Faktoryzacja - rozkład na czynniki pierwsze (przedstawienie liczby jako iloczyn liczb pierwszych).
+Uwaga: czynniki pierwsze to nie jest to samo co dzielniki pierwsze.
+100=2*2*5*5
+100 | 2
+50 | 2
+25 | 5
+5 | 5
+1
+Przykład 1
+Napisz specyfikację i algorytm w postaci pseudokodu, który wyświetli czynniki pierwsze liczby
+naturalnej n&gt;1.
+Specyfikacja:
+Dane:
+n - liczba naturalna większa od 1
+Wyniki:
+czynniki pierwsze liczby n
+Algorytm (pseudokod):
+wczytaj(n)
+czynnik ← 2
+dopóki n&gt;1 wykonuj
+dopóki n mod czynnik = 0 wykonuj
+wypisz(czynnik)
+n ← n / czynnik
+czynnik ← czynnik + 1
+Opis:
+mod - reszta z dzielnia
+div - dzielenie całkowite
+← operacja przypisania
+Zadanie 1
+Napisz program, który wczyta liczbę naturalną n&gt;1 z klawiatury i wyświetli czynniki pierwsze liczby n
+w osobnych liniach.
+Np. dla liczby n=100 zostaną wyświetlone liczby
+2
+2
+5
+5
+bo 100=2*2*5*5
+
+Zadanie 2
+Napisz program, który wczyta liczbę naturalną n&gt;1 z klawiatury i wyświetli sumę czynników
+pierwszych tej liczby.
+Np. dla liczby n=100 zostanie wyświetlona liczba
+14
+bo 100=2*2*5*5 oraz 2+2+5+5=14
+Wskazówka:
+Algorytm (pseudokod):
+wczytaj(n)
+czynnik ← 2
+suma ← 0
+dopóki n&gt;1 wykonuj
+dopóki n mod czynnik = 0 wykonuj
+suma ← suma + czynnik
+n ← n / czynnik
+czynnik ← czynnik + 1
+wypisz(suma)
+Zadanie 3
+Napisz program, który wczyta liczbę naturalną n&gt;1 z klawiatury i wyświetli komunikat, czy suma
+czynników pierwszych liczby n jest liczbą pierwszą.
+Wskazówka:
+Algorytm badania, czy liczba jest liczbą pierwszą:
+Specyfikacja:
+Dane:
+n - liczba całkowita większa od 1
+Wyniki:
+komunikat &quot;Tak&quot;, gdy n jest liczbą pierwszą; &quot;Nie&quot;, gdy n nie jest liczbą pierwszą
+Algorytm (pseudokod):
+funkcja czy_pierwsza(n):
+jeżeli n &lt; 2 to
+zwróć &quot;Nie&quot;
+i ← 2
+dopóki i*i ≤ n wykonuj
+jeżeli n mod i = 0:
+zwróć &quot;Nie&quot;
+i ← i + 1
+zwróć &quot;Tak&quot;
+Zadanie 4
+Napisz program, który wyświetli liczbę różnych czynników pierwszych liczby n podanej przez
+użytkownika.
+
+Np. liczba 100 = 2*2*5*5, czyli ma cztery czynniki pierwsze ale tylko dwa różne 2 i 5. Czyli dla liczby
+n=100 program powinien wyświetlić 2.
+Zadanie 5
+Napisz program, który sprawdzi, czy liczba naturalna n&gt;1 podana przez użytkownika jest liczbą
+Smitha.
+https://pl.wikipedia.org/wiki/Liczba_Smitha
+Wskazówka:
+Przykład: cyfry liczby 123
+123 mod 10 = 3
+123 div 10 = 12
+12 mod 10 = 2
+12 div 10 = 1
+1 mod 10 = 1
+1 div 10 = 0
+Algorytm, który oblicza sumę cyfr liczby dziesiętnej:
+Specyfikacja:
+Dane:
+n - liczba całkowita dodatnia
+Wyniki:
+suma cyfr liczby n w systemie dziesiętnym
+Algorytm (pseudokod):
+funkcja suma_cyfr(n):
+suma ← 0
+dopóki n&gt;0 wykonuj
+reszta ← n mod 10
+suma ← suma + reszta
+n ← n div 10
+zwróć suma
