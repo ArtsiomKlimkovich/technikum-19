@@ -1,3 +1,5 @@
+# Zadanie 10
+# Napisz program, który wyświetli w osobnych wierszach wszystkie liczby doskonałe mniejsze od 1000.
 def czyDoskonala (n):
     counter = 0
     for i in range (1, n):
