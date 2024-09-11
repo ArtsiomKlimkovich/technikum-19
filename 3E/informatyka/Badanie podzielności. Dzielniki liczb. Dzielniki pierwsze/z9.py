@@ -1,3 +1,6 @@
+# Zadanie 9
+# Napisz program, który wyświetli w osobnych wierszach wszystkie pary liczb bliźniaczych mniejszych
+# od 1000.
 def isPrime (n):
     if n == 2: return True
     for i in range (2, n):
