@@ -1,0 +1,20 @@
+﻿<Window x:Class="rozgrzewkaWPF.zadanie_1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:rozgrzewkaWPF"
+        mc:Ignorable="d"
+        Title="zadanie_1" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="377*"/>
+            <ColumnDefinition Width="423*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="imieText" Text="Imie: " HorizontalAlignment="Left" Height="24" Margin="53,34,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="113" FontSize="16" TextChanged="imie_TextChanged" />
+        <TextBox x:Name="nazwiskoText" Text="Nazwisko: " HorizontalAlignment="Left" Height="24" Margin="53,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="113" FontSize="16" TextChanged="nazwisko_TextChanged" AutomationProperties.HelpText="Imie: "/>
+        <Button x:Name="showDataBtn" Content="show data" HorizontalAlignment="Left" Height="24" Margin="221,34,0,0" VerticalAlignment="Top" Width="103" FontSize="14" Click="showDataBtn_Click"/>
+        <Button x:Name="exitBtn" Content="exit + bye bye" HorizontalAlignment="Left" Height="24" Margin="221,75,0,0" VerticalAlignment="Top" Width="103" FontSize="14" Click="exitBtn_Click"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,4 @@
+Imię: jan
+Płeć: Mężczyzna
+Hobby: Sport, Muzyka, 
+Opis: cos o sobie

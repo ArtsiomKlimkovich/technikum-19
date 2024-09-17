@@ -1,0 +1,17 @@
+C:\Raft\zadania desktopowka\rozgrzewka\rozgrzewkaWPF\rozgrzewkaWPF\obj\Debug\rozgrzewkaWPF.csproj.AssemblyReference.cache
+C:\Raft\zadania desktopowka\rozgrzewka\rozgrzewkaWPF\rozgrzewkaWPF\obj\Debug\zadanie_1.g.cs
+C:\Raft\zadania desktopowka\rozgrzewka\rozgrzewkaWPF\rozgrzewkaWPF\obj\Debug\App.g.cs
+C:\Raft\zadania desktopowka\rozgrzewka\rozgrzewkaWPF\rozgrzewkaWPF\obj\Debug\rozgrzewkaWPF_MarkupCompile.cache
+C:\Raft\zadania desktopowka\rozgrzewka\rozgrzewkaWPF\rozgrzewkaWPF\obj\Debug\rozgrzewkaWPF_MarkupCompile.lref
+C:\Raft\zadania desktopowka\rozgrzewka\rozgrzewkaWPF\rozgrzewkaWPF\bin\Debug\rozgrzewkaWPF.exe.config
+C:\Raft\zadania desktopowka\rozgrzewka\rozgrzewkaWPF\rozgrzewkaWPF\bin\Debug\rozgrzewkaWPF.exe
+C:\Raft\zadania desktopowka\rozgrzewka\rozgrzewkaWPF\rozgrzewkaWPF\bin\Debug\rozgrzewkaWPF.pdb
+C:\Raft\zadania desktopowka\rozgrzewka\rozgrzewkaWPF\rozgrzewkaWPF\obj\Debug\zadanie_1.baml
+C:\Raft\zadania desktopowka\rozgrzewka\rozgrzewkaWPF\rozgrzewkaWPF\obj\Debug\rozgrzewkaWPF.g.resources
+C:\Raft\zadania desktopowka\rozgrzewka\rozgrzewkaWPF\rozgrzewkaWPF\obj\Debug\rozgrzewkaWPF.Properties.Resources.resources
+C:\Raft\zadania desktopowka\rozgrzewka\rozgrzewkaWPF\rozgrzewkaWPF\obj\Debug\rozgrzewkaWPF.csproj.GenerateResource.cache
+C:\Raft\zadania desktopowka\rozgrzewka\rozgrzewkaWPF\rozgrzewkaWPF\obj\Debug\rozgrzewkaWPF.csproj.CoreCompileInputs.cache
+C:\Raft\zadania desktopowka\rozgrzewka\rozgrzewkaWPF\rozgrzewkaWPF\obj\Debug\rozgrzewkaWPF.exe
+C:\Raft\zadania desktopowka\rozgrzewka\rozgrzewkaWPF\rozgrzewkaWPF\obj\Debug\rozgrzewkaWPF.pdb
+C:\Raft\zadania desktopowka\rozgrzewka\rozgrzewkaWPF\rozgrzewkaWPF\obj\Debug\zadanie_2.g.cs
+C:\Raft\zadania desktopowka\rozgrzewka\rozgrzewkaWPF\rozgrzewkaWPF\obj\Debug\zadanie_2.baml

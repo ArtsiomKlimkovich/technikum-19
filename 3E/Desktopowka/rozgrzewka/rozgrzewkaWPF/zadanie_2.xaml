@@ -1,0 +1,27 @@
+﻿<Window x:Class="rozgrzewkaWPF.zadanie_2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:rozgrzewkaWPF"
+        mc:Ignorable="d"
+        Title="zadanie_2" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="imieText" HorizontalAlignment="Left" Height="33" Margin="39,33,0,0" TextWrapping="Wrap" Text="Imie: " VerticalAlignment="Top" Width="205" FontSize="20"/>
+        <StackPanel Margin="39,117,620,267">
+            <RadioButton x:Name="maleRadio" Content="M" Height="18" FontSize="16"/>
+            <RadioButton x:Name="femaleRadio" Content="K" Height="18" FontSize="18"/>
+        </StackPanel>
+        <TextBlock HorizontalAlignment="Left" Height="22" Margin="39,90,0,0" TextWrapping="Wrap" Text="Plec:" VerticalAlignment="Top" Width="66" FontSize="18"/>
+        <StackPanel Margin="180,136,502,238">
+            <CheckBox Name="PodrozeCheckbox" Content="Podróże" FontSize="14"/>
+            <CheckBox x:Name="MuzykaCheckbox" Content="Muzyka" FontSize="14"/>
+            <CheckBox x:Name="SportCheckbox" Content="Sport" FontSize="14"/>
+        </StackPanel>
+        <TextBlock HorizontalAlignment="Left" Height="29" Margin="180,102,0,0" TextWrapping="Wrap" Text="Hobby:" VerticalAlignment="Top" Width="118" FontSize="18"/>
+        <TextBox x:Name="opisTextArea" HorizontalAlignment="Left" Height="78" Margin="39,248,0,0" TextWrapping="Wrap" Text="O sobie..." VerticalAlignment="Top" Width="351"/>
+        <TextBlock HorizontalAlignment="Left" Height="26" Margin="39,217,0,0" TextWrapping="Wrap" Text="O siebie:" VerticalAlignment="Top" Width="273" FontSize="18"/>
+        <Button Content="Zapisz" Margin="110,358,538,35" Click="Zapisz_Click" FontSize="20" />
+        <Label Name="StatusLabel" Content="" Margin="471,200,125,204" FontSize="18"/>
+    </Grid>
+</Window>
