@@ -1,0 +1,36 @@
+Faktoryzacja i dzielniki liczb – powtórzenie
+Plik liczby1.txt zawiera 8 liczb w osobnych wierszach.
+Plik liczby2.txt zawiera 5 liczb rozdzielnych spacjami.
+Uwaga:
+Programy powinny dać poprawną odpowiedź nawet po zmianie liczb w pliku liczby.txt.
+1. Napisz program, który wyświetli ile jest liczb pierwszych w pliku liczby1.txt.
+Odp. 4
+2. Napisz program, który wyświetli w osobnych wierszach te liczby z pliku liczby2.txt, które są
+podzielne przez 2.
+Odp.
+32
+36
+38
+52
+3. Napisz program, który wyświetli łączną liczbę wszystkich dzielników właściwych liczb w pliku
+liczby2.txt
+Odp. 24
+4. Napisz program, który wyświetli liczbę z pliku liczby2.txt, która ma największą sumę
+dzielników pierwszych. Jest tylko jedna taka liczba.
+Odp. 38
+5. Napisz program, który wyświetli liczby z pliku liczby2.txt, które mają najmniejszą sumę
+czynników pierwszych.
+Odp.
+21
+32
+36
+6. Napisz program, który wyświetli w osobnych wierszach te liczby z pliku liczby2.txt, które mają
+co najmniej 2 różne czynniki pierwsze w rozkładzie na czynniki pierwsze.
+Odp.
+21
+36
+38
+52
+7. Napisz program, który wyświetli liczbę z pliku liczby2.txt, która ma najmniejszą sumę cyfr
+wszystkich czynników pierwszych. Jest tylko jedna taka liczba.
+52
