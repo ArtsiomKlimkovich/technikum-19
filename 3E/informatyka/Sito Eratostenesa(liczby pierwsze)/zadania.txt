@@ -1,39 +1,3 @@
-Sito Eratostenesa
-Przykład 1.
-Napisz algorytm w postaci pseudokodu, który wyświetli wszystkie liczby pierwsze mniejsze lub równe n, gdzie n jest
-liczbą naturalną większą od 1, wykorzystując algorytm sita Eratostenesa.
-Dane:
-n - liczba całkowita większa od 1
-Wyniki:
-liczby pierwsze mniejsze lub równe n
-Algorytm (sito Eratostenesa):
-czy_pierwsza[0] ← fałsz
-czy_pierwsza[1] ← fałsz
-dla i=2,3,...,n wykonuj
-czy_pierwsza[i] ← prawda
-p ← 2
-dopóki p * p ⩽ n wykonuj
-jeżeli czy_pierwsza[p]=prawda
-dla i=p*p, p*(p+1),...,n wykonuj:
-czy_pierwsza[i] ← fałsz
-p ← p + 1
-dla i=2,3,...,n wykonuj
-jeżeli czy_pierwsza[i]=prawda to
-wypisz i
-Wyjaśnienie:
-
-Przykład 2
-Napisz program, który wczyta liczby z pliku liczby.txt do listy o nazwie liczby i wyświetli długość tej listy oraz pierwsze
-10 liczb z tej listy.
-
-Komentarz:
-W celu odczytania zawartości pliku tekstowego otwieramy plik do odczytu za pomocą funkcji open, wskazując nazwę
-pliku (ewentualnie ze ścieżką, jeżeli znajduje się w innym folderze) oraz tryb otwarcia (r oznacza tryb do odczytu).
-Następnie za pomocą plik.read() odczytuję cały plik jako jeden napis, który następnie za pomocą metody split
-rozbijam na listę zawierającą fragmenty, które były rozdzielone w pliku białymi znakami (np. spacjami lub znakami
-nowej linii). Następnie za pomocą list, map oraz int dokonuję zamiany tych fragmentów na listę zawierającą liczby
-całkowite. Gdy plik zostanie odczytany należy go zamknąć za pomocą plik.close(). Ten program potrafi odczytać
-liczby umieszczone w osobnych wierszach lub w jednym wierszu rozdzielone spacjami (lub znakami tabulacji).
 Zadanie 1.
 Napisz program w języku Python, który wyświetli wszystkie liczby pierwsze mniejsze lub równe n, gdzie n jest liczbą
 naturalną większą od 1, wykorzystując algorytm sita Eratostenesa.
