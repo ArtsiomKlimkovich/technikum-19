@@ -3,6 +3,8 @@ def isInTable (T, a, n):
     right = n-1
     while left < right:
         middle = (left+right) // 2
+        if T[middle] == a:
+            return True
         if T[middle] < a:
             left = middle + 1
         else:
