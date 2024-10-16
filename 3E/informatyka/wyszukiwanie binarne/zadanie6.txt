@@ -1,0 +1,2 @@
+nie
+Liczba porównañ: 1000000
