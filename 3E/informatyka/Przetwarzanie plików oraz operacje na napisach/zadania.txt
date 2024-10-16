@@ -1,0 +1,32 @@
+Napisz program, który zapyta użytkownika o podanie imienia i nazwiska, a następnie zapisze te dane w pliku
+dane_osobowe.txt w dwóch wierszach (pierwszy wiersz imię, drugi nazwisko).
+2. Napisz program, który odczyta imię i nazwisko zapisane w pliku dane_osobowe.txt i wyświetli powitanie
+„Witaj imię i nazwisko”, gdzie imię i nazwisko należy zastąpić odczytanymi z pliku tekstowego.
+3. Napisz program, który:
+a. zapisze w pliku losowe.txt 10 liczb losowych z zakresu od 1 do 100 w osobnych liniach.
+b. wyświetli sumę, minimum, maksimum, średnią liczb odczytanych z pliku losowe.txt
+
+4. Napisz program, który wyświetli liczbę ciągów z pliku ciagi.txt, które mają sumę wyrazów parzystą. Opis
+zawartości pliku ciagi.txt znajduje się w przykładzie 6.
+5. Napisz program (każdy podpunkt jako osobny program), który odczyta plik slowa.txt, a następnie:
+a. wyświetli ponumerowane słowa z pliku tekstowego
+b. wyświetli liczbę słów w pliku
+c. wyświetli słowa zaczynające się na literę A
+d. wyświetli słowa kończące się na literę A
+e. wyświetli słowa oraz liczbę liter, z których się składają
+f. *wyświetli najkrótsze oraz najdłuższe słowo w pliku oraz ich długość (jeżeli jest ich kilka wyświetl
+pierwsze z nich)
+g. wyświetli słowa o długości 6
+h. wyświetli słowa zawierające literę O oraz dla każdego z tych słów liczbę tych liter O
+i. wyświetli ile razy w całym pliku występuje litera A
+6. Napisz program (każdy podpunkt jako osobny program), który odczyta plik liczby.txt zawierający liczby w
+zapisie binarnym, a następnie zapisze do pliku wyniki.txt:
+a. ilość liczb
+b. liczby parzyste (wsk. kończące się cyfrą 0)
+c. liczby podzielne przez 8 (wsk. liczba 0 lub kończące się trzema cyframi 0)
+d. liczby, która mają więcej jedynek niż zer
+e. liczby zamienione na postać dziesiętną
+7. Napisz program, który:
+a. zapisze w pliku losowe_w_linii.txt 20 liczb losowych z zakresu od 1 do 10 w jednej linii rozdzielone
+spacją (po ostatniej liczbie powinien być znak nowej linii).
+b. wyświetli liczby, które występują najczęściej
