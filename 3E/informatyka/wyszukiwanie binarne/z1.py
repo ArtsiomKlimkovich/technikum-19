@@ -11,7 +11,7 @@ def isInList(list, a, n):
             right = middle - 1
         return list[left] == a
         
-ciag = list(map(int, input("input ciag: ").split()))
+ciag = list(map(int, input("input ciag: ").split(" ")))
 a = int(input ("input a: "))
 n = len(ciag)
 if isInList(ciag, a, n):
