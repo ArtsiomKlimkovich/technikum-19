@@ -1,20 +1,20 @@
-def isInTable (T, a, n):
+def isInList(list, a, n):
     left = 0
     right = n-1
     while left < right:
-        middle = (left+right) // 2
-        if T[middle] == a:
+        middle = (left + right) // 2
+        if list[middle] == a:
             return True
-        if T[middle] < a:
+        if list[middle] < a:
             left = middle + 1
         else:
             right = middle - 1
-    return T[left] == a
-
-nums = list(map(int, input("input sequence: ").split(" ")))
-a = int (input ("input a: "))
-n = 10
-if isInTable(nums, a, n):
-    print ("tak")
+        return list[left] == a
+        
+ciag = list(map(int, input("input ciag: ").split()))
+a = int(input ("input a: "))
+n = len(ciag)
+if isInList(ciag, a, n):
+    print("Tak")
 else:
-    print ("nie")
+    print("Nie")
