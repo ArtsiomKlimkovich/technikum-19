@@ -1,0 +1,34 @@
+Powtórzenie wiadomości
+Zagadnienia:
+⦁	Sortowanie przez scalanie
+⦁	Schemat Hornera
+⦁	Znajdowanie podciągów o różnych własnościach
+⦁	Podciągi – sumowanie
+Przykładowe zadania:
+Zadanie 1.
+Napisz program w języku Python, który wylosuje milion liczb z zakresu od 1 do miliona, a następnie program zapisze ten ciąg posortowany metodą sortowania przez scalanie do pliku wyniki.txt (liczby w osobnych liniach).
+Zadanie 2
+Napisz program w języku Python, który wyświetli wartość wielomianu podanego przez użytkownika, wykorzystując schemat Hornera w wersji iteracyjnej. Użytkownik podaje współczynniki wielomianu jako liczby rozdzielone spacjami, przy czym pierwsza liczba oznacza wyraz wolny a0, a ostatnia współczynnik przy najwyższej potędze. Po podaniu współczynników wielomianu użytkownik podaje liczbę x, dla której ma być obliczona wartość wielomianu.
+Zadanie 3.
+Napisz program, który wczyta z klawiatury ciąg liczb rozdzielonych spacjami, a następnie wyświetli „tak”, jeżeli ciąg jest rosnący, oraz „nie” w przeciwnym wypadku.
+Zadanie 4.
+Napisz program, który wyświetli długość najdłuższego spójnego niemalejącego podciągu ciągu liczb, znajdujących się w pierwszym wierszu pliku liczby.txt (rozdzielonych spacjami).
+Zadanie 5.
+Napisz program, który wyświetli maksymalną sumę elementów spójnych podciągów ciągu o długości 3, znajdującego się w pierwszym wierszu pliku ciag.txt.
+Zadanie 6.
+Napisz program, który wyświetli maksymalną sumę elementów spójnych podciągów ciągu, znajdującego się w pierwszym wierszu pliku ciag.txt.
+Zadanie 7. 
+Napisz program, który wyświetli te ciągi z pliku ciagi.txt, które zawierają spójny podciąg 3-wyrazowy o sumie elementów 10. W pliku ciagi.txt w każdym wierszu znajduje się jeden ciąg liczb rozdzielonych spacjami.
+Materiały pomocnicze:
+Sortowanie przez scalanie:
+Specyfikacja:
+Dane:
+n – liczba elementów w ciągu
+tab[0..n-1] – ciąg n liczb całkowitych
+Wyniki:
+tab – ciąg z uporządkowanymi elementami niemalejąco
+Pseudokod(z wykorzystaniem tablicy pomocniczej pom o n elementach):
+ 
+ 
+
+
