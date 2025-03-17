@@ -1,0 +1,26 @@
+Sortowanie szybkie (ang. quick sort)
+Algorytm sortowania szybkiego (ang. quick sort) należy do rodziny algorytmów „Dziel i zwyciężaj”. W tym algorytmie wybieramy element środkowy, zwany dalej pivotem, a następnie mówiąc w skrócie liczby większe od pivotu przerzucamy na prawo, a mniejsze na lewo tak, aby można było podzielić ciąg na dwie części takie, że lewa cześć zawiera elementy mniejsze lub równe pivotowi, a druga część liczby większe lub równe pivotowi. Następnie rekurencyjnie sortujemy osobno lewą i prawą cześć.
+Średnia złożoność obliczeniowa algorytmu sortowania szybkiego wynosi O(n log n), ale złożoność pesymistyczna wynosi O(n2), gdyż może się tak zdarzyć, że w wyniku podziału jedna część zawiera 1 element, a druga część wszystkie pozostałe elementy.
+Pseudokod (wersja bez tworzenia dodatkowych list):
+ 
+Uwagi:
+Powyższy algorytm wykonuje sortowanie prawie „in place”. Jedyna dodatkowa pamięć jest wykorzystywana do zapisywania wywołań rekurencyjnych.
+Zadanie 1.
+Napisz program, który wczyta z pliku liczby.txt ciąg liczb, a następnie wyświetli ten ciąg posortowany metodą sortowania szybkiego zgodnie z powyższym pseudokodem.
+Zadanie 2.
+Napisz program, który wczyta z pliku liczby.txt ciąg liczb, a następnie wyświetli ten ciąg posortowany metodą sortowania szybkiego zapisując wynik podziału listy w nowych listach.
+Wskazówka:
+ 
+Uwagi:
+Powyższa metoda zużywa więcej pamięci, ale tworzone nowe tablice są szybko automatycznie usuwane, gdy nie są już potrzebne przez wbudowany mechanizm czyszczenia pamięci (ang. garbage collector), dzięki czemu ten algorytm działa szybko. Należy zwrócić uwagę, że w tym przykładzie przekazywany ciąg jako parametr nie jest modyfikowany, tylko zwracana jest posortowana kopia tego ciągu.
+Zadanie 3.
+Zmodyfikuj program z zadania 2 tak, aby wyznaczając elementy mniejsze, równe oraz większe od pivota zastosować tylko jedną pętlę for.
+Zadanie 4.
+Napisz program, który wczyta z pliku liczby.txt ciąg liczb, a następnie wyświetli ten ciąg posortowany metodą sortowania szybkiego zgodnie z algorytmem opisanym na stronie:
+https://eduinf.waw.pl/inf/alg/003_sort/0018.php 
+Zadanie 5.
+Porównaj czas działania i zużycie pamięci algorytmów z zadania 1 i 2 na dużej liście z losowymi liczbami.
+
+
+
+
