@@ -1,0 +1,4 @@
+Zamień liczbę EA19C037D 16 na system o podstawie 4.
+
+odp:
+3222202113003313
