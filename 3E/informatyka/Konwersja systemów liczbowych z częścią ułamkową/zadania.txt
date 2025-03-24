@@ -1,0 +1,32 @@
+Zadanie 1.
+Zamień liczby rzeczywiste w zapisie binarnym na system dziesiętny.
+a) 101,0101 2
+b) 10111,0011 2
+Zadanie 2
+
+Zamień podane liczby dziesiętne na system binarny.
+a) 43,25 10
+b) 21,375 10
+c) 34,8125 10
+d) 25,1 10
+e) 13,4 10
+Zadanie 3
+Zamień podane liczby na system binarny, a następnie z binarnego na ósemkowy i szesnastkowy.
+a) 532 10
+b) 84 10
+c) 149 10
+Zadanie 4
+Zamień liczbę 210323201 4 na system heksadecymalny.
+Zadanie 5
+Zamień liczbę EA19C037D 16 na system o podstawie 4.
+Zadanie 6
+Napisz program, który zamieni liczbę binarną podaną jako napis z częścią ułamkową po przecinku na
+system dziesiętny (nie korzystając z funkcji wbudowanej int).
+Zadanie 7
+Napisz program, który zamieni liczbę całkowitą dziesiętną na liczbę w zapisie binarnym nie
+korzystając z funkcji konwersji podanej liczby dziesiętnej na napis oraz funkcji wbudowanej bin.
+Zadanie 8
+Zmodyfikuj poprzedni program tak, aby możliwa była również konwersja liczb dziesiętnych z częścią
+ułamkową na system binarny. Wynik podaj z dokładnością do 15 cyfr po przecinku.
+Zadanie 9
+Wykonaj zadanie 14 z informatora o egzaminie maturalnym z informatyki 2023
