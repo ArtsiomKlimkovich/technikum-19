@@ -1,0 +1,12 @@
+Zadanie 1
+21
+Zadanie 2
+6 8 7
+Zadanie 3
+27
+Zadanie 4
+27
+Zadanie 5
+6 8 7 3 -2 5
+Zadanie maturalne 4.4
+1200.704918032787 61 1847

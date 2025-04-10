@@ -1,0 +1,7 @@
+Zamień liczby rzeczywiste w zapisie binarnym na system dziesiętny.
+a) 101,0101_2
+b) 10111,0011_2
+
+odp:
+a) 5,3125
+b) 23,1875

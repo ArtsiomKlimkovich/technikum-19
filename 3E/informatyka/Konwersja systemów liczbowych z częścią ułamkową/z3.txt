@@ -1,9 +1,0 @@
-Zamień podane liczby na system binarny, a następnie z binarnego na ósemkowy i szesnastkowy
-a) 532 10
-b) 84 10
-c) 149 10
-
-odp:
-a) Binary: 1000010100, Octal: 1024, Hex: 214
-b) Binary: 1010100, Octal: 124, Hex: 54
-c) Binary: 10010101, Octal: 225, Hex: 95

@@ -1,4 +1,0 @@
-Zamień liczbę 210323201 4 na system heksadecymalny.
-
-odp:
-12771
