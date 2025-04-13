@@ -11,7 +11,7 @@ def suma_w_systemie_p(a, b, p):
 a = input("Podaj pierwszą liczbę w systemie o podstawie p: ")
 b = input("Podaj drugą liczbę w systemie o podstawie p: ")
 p = int(input("Podaj podstawę systemu (od 2 do 9): "))
-
+ 
 if p < 2 or p > 9:
     print("Podstawa systemu musi być w zakresie od 2 do 9.")
 else:
