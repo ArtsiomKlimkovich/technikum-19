@@ -7,7 +7,7 @@ def suma_w_systemie_p(a, b, p):
         wynik_p = str(suma % p) + wynik_p
         suma //= p
     return wynik_p
-
+ 
 a = input("Podaj pierwszą liczbę w systemie o podstawie p: ")
 b = input("Podaj drugą liczbę w systemie o podstawie p: ")
 p = int(input("Podaj podstawę systemu (od 2 do 9): "))
