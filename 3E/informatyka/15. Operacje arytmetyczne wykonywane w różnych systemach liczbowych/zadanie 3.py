@@ -2,7 +2,7 @@ def suma_w_systemie_p(a, b, p):
     a_decimal = int(a, p)
     b_decimal = int(b, p)
     suma = a_decimal + b_decimal
-    wynik_p = ""
+    wynik_p = ""   
     while suma > 0:
         wynik_p = str(suma % p) + wynik_p
         suma //= p
