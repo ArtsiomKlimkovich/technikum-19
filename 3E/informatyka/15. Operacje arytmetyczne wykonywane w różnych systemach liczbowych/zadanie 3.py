@@ -14,6 +14,6 @@ p = int(input("Podaj podstawę systemu (od 2 do 9): "))
 
 if p < 2 or p > 9:
     print("Podstawa systemu musi być w zakresie od 2 do 9.")
-else:
+else:   
     wynik = suma_w_systemie_p(a, b, p)
     print(f"Wynik dodawania w systemie o podstawie {p}: {wynik}")
