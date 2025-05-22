@@ -1,0 +1,26 @@
+1. Co to jest obiekt?
+Obiekt w programowaniu obiektowym to instancja klasy, zawierająca dane (atrybuty) oraz
+funkcje (metody) związane z tymi danymi. Obiekt reprezentuje konkretny element w systemie.
+
+2. Co to jest klasa?
+Klasa to szablon, który definiuje struktury danych oraz metody, które będą dostępne dla
+obiektów tej klasy. Klasa określa, jakie atrybuty i zachowania będą miały obiekty, które
+będą jej instancjami.
+
+3. Jak nazywają się dane zawarte w obiekcie, określające jego stan?
+Dane zawarte w obiekcie, które określają jego stan, nazywają się atrybutami.
+
+4. Jak nazywają się funkcje zawarte w obiekcie określające jego zachowanie?
+Funkcje zawarte w obiekcie, które określają jego zachowanie, nazywają się metodami.
+
+5. Co to jest konstruktor obiektu?
+Konstruktor obiektu to specjalna metoda w klasie, która jest wywoływana w momencie
+tworzenia nowego obiektu. Umożliwia zainicjowanie atrybutów obiektu.
+
+6. Jaki operator umożliwia dostęp do atrybutów i metod obiektu?
+Operator, który umożliwia dostęp do atrybutów i metod obiektu, to operator kropki (.).
+
+7. Co oznacza skrót OOP?
+OOP to skrót od Object-Oriented Programming, czyli programowanie obiektowe. Jest to
+paradygmat programowania, który opiera się na modelowaniu problemów w postaci obiektów,
+które posiadają dane i metody.
