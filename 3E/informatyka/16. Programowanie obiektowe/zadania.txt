@@ -1,0 +1,37 @@
+Zadanie 1
+Odpowiedz na pytania:
+1. Co to jest obiekt?
+2. Co to jest klasa?
+3. Jak nazywają się dane zawarte w obiekcie, określające jego stan?
+4. Jak nazywają się funkcje zawarte w obiekcie określające jego zachowanie?
+5. Co to jest konstruktor obiektu?
+6. Jaki operator umożliwia dostęp do atrybutów i metod obiektu?
+7. Co oznacza skrót OOP?
+Zadanie 2
+Zmodyfikuj przykład 1 dodając do definicji klasy Prostokat metodę obwod() obliczającą obwód prostokąta.
+Wykorzystaj tę metodę do wyświetlenia obok pola również obwodu prostokąta.
+Zadanie 3
+Wykorzystując przykład 2 stwórz na podstawie klasy zdefiniowanej w zadaniu 2 klasę ProstokatEkstra zawierającą
+dodatkowo metody wyswietl_pole() oraz wyswietl_obwod(). Wykorzystaj nowo zdefiniowane metody do
+wyświetlenia pola i obwodu prostokąta.
+Zadanie 4
+Dodaj do zadania 3 możliwość podawania długości i szerokości prostokąta przez użytkownika.
+Zadanie 5
+Napisz skrypt, który tworzy klasę Osoba zawierającą:
+- atrybuty: imię, nazwisko, wzrost, waga tworzone za pomocą konstruktora
+- metodę powitanie, która wyświetla powitanie &quot;Witaj &lt;&lt;Imię&gt;&gt; &lt;&lt;Nazwisko&gt;&gt;”
+- metodę informacje, która wyświetli informacje w formacie:
+Imię i nazwisko: ... ...
+Wzrost: ...
+Waga: ...
+Następnie skrypt zapyta użytkownika o podanie imienia, nazwiska, wzrostu i wagi, utworzy obiekt przekazując do
+konstruktora podane przez użytkownika dane i uruchomi metody powitanie() oraz informacje().
+Zadanie 6
+Napisz skrypt, który tworzy klasę Trojkat zawierającą:
+- atrybuty: a, b, c, wysokosc tworzone za pomocą konstruktora
+- metodę pole, która wyświetla pole trójkąta
+- metodę obwód, która wyświetla obwód trójkąta
+
+Następnie skrypt zapyta o podanie wszystkich właściwości trójkąta i uruchomi jego metody.
+Zadanie 7
+Napisz skrypt, który obliczy pole i obwód koła, wykorzystując metodologię programowania obiektowego.
