@@ -1,0 +1,38 @@
+Zadanie 1
+Napisz program w języku Python, który wczyta nominały z pliku nominaly.txt (są to liczby w
+pierwszym wierszu pliku rozdzielone spacjami), zapyta użytkownika o podanie kwoty reszty do
+wydania, a następnie wyświetli sposób wydania reszty za pomocą jak najmniejszej liczby nominałów
+metodą zachłanną w formacie:
+Np. dla kwoty 140 wynikiem działania programu będzie:
+1x100
+2x20
+Informacje wstępne do zadań 2-5
+Zapoznaj się z opisem rzymskiego systemu zapisywania liczb:
+https://pl.wikipedia.org/wiki/Rzymski_system_zapisywania_liczb
+Zadanie 2.
+Zamień podane liczby w systemie rzymskim na liczby w systemie dziesiętnym:
+a) MDCCLXXXV
+
+b) MMCDXCIV
+c) MCXCIII
+d) MMMCXXIII
+Zadanie 3.
+Zamień liczby podane w systemie dziesiętnym na liczby w systemie rzymskim:
+a) 1293
+b) 2189
+c) 3743
+d) 999
+Zadanie 4.
+Napisz program realizujący zamianę liczb z przedziału [1, 4000) z systemu dziesiętnego na rzymski,
+wykorzystując algorytm zachłanny.
+Wskazówki:
+Przyjmij jako nominały ciąg 1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1 oraz odpowiadające im
+wartości M, CM, D, CD, C, XC, L, XL, X, IX, V, IV, I
+Zamiast wykonywania dzielenia z resztą można wielokrotnie odejmować wartość, dopóki jest to
+możliwe.
+Zadanie 5.
+Napisz program realizujący zamianę liczb z systemu rzymskiego na dziesiętny. Uwzględnij możliwość
+użycia symboli M, D, C, L, X, V, I.
+Wskazówki:
+Gdy następny symbol ma większą wartość, to wartość aktualnego symbolu jest odejmowana.
+Do przechowywania wartości symboli można wykorzystać strukturę słownika (ang. dictionary)
