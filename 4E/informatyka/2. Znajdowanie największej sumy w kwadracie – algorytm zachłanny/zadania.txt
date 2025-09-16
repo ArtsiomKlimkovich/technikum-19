@@ -1,0 +1,41 @@
+Zadanie 1
+Podaj przykład macierzy, w której algorytm zachłanny nie daje największej sumy.
+
+Zadanie 2
+Pokoloruj ścieżkę z największą sumą otrzymaną algorytmem zachłannym i napisz ścieżkę zgodnie z
+przykładem używając indeksów macierzy.
+a)
+  0 1 2 3 4
+0 3 7 2 6 4
+1 5 1 9 3 8
+2 6 2 4 7 1
+3 8 3 5 2 9
+4 4 6 1 5 7
+b)
+  0 1 2 3 4
+0 2 5 4 3 4
+1 5 4 3 3 8
+2 4 3 4 8 2
+3 3 3 2 2 9
+4 7 6 1 9 7
+Zadanie 3
+Napisz program, który utworzy macierz M wypełnioną liczbami z zadania 2 i wypisze maksymalną
+sumę otrzymaną zgodnie z algorytmem zachłannym opisanym powyżej.
+Zadanie 4
+Napisz program, który wczyta macierz M z pliku macierz.txt i wypisze maksymalną sumę oraz indeksy
+wybieranych komórek w osobnych wierszach rozdzielone spacjami.
+Dla macierzy z przykładu 1 wynik powinien wyglądać tak:
+63
+0 0
+1 0
+1 1
+2 1
+2 2
+3 2
+3 3
+3 4
+4 4
+Zadanie 5
+Napisz program, który zapyta użytkownika o podanie liczby całkowitej n, a następnie wygeneruje
+macierz o n wierszach i n kolumnach z liczbami losowymi z zakresu 1-10, a następnie wyświetli tą
+macierz oraz największą sumę wyznaczoną algorytmem zachłannym opisanym powyżej.
