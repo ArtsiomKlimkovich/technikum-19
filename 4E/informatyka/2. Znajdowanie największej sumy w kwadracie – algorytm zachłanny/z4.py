@@ -1,27 +1,30 @@
-def wczytaj_macierz(filename):
-    macierz = []
-    with open(filename, 'r') as file:
-        for line in file:
-            macierz.append(list(map(int, line.split())))
-    return macierz
+def wczytaj_macierz(nazwa_pliku):
+    with open(nazwa_pliku, "r") as plik:
+        return [list(map(int, linia.strip().split())) for linia in plik]
 
+def znajdz_najwieksza_sume(M, n):
+    i, j = 0, 0
+    suma = M[0][0]
+    sciezka = [(0, 0)]
 
-def znajdz_maximalna_sume(macierz):
-    max_suma = 0
-    indeksy = []
-    for i in range(len(macierz)):
-        for j in range(len(macierz[i])):
-            if macierz[i][j] > max_suma:
-                max_suma = macierz[i][j]
-                indeksy = [(i, j)]
-            elif macierz[i][j] == max_suma:
-                indeksy.append((i, j))
-    return max_suma, indeksy
+    while i < n - 1 or j < n - 1:
+        if i == n - 1:
+            j += 1
+        elif j == n - 1:
+            i += 1
+        elif M[i + 1][j] > M[i][j + 1]:
+            i += 1
+        else:
+            j += 1
+        suma += M[i][j]
+        sciezka.append((i, j))
 
+    return suma, sciezka
 
-macierz = wczytaj_macierz('macierz.txt')
-max_suma, indeksy = znajdz_maximalna_sume(macierz)
+M = wczytaj_macierz("macierz.txt")
+n = len(M)
+suma, sciezka = znajdz_najwieksza_sume(M, n)
 
-print(max_suma)
-for i, j in indeksy:
+print(suma)
+for i, j in sciezka:
     print(i, j)
