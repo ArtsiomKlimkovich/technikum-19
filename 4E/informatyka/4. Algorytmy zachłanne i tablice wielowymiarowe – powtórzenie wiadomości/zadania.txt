@@ -1,0 +1,37 @@
+Algorytmy zachłanne i tablice wielowymiarowe – powtórzenie wiadomości.
+Zadanie 1
+Napisz program w języku Python, który wczyta nominały zapisane w pierwszej linii pliku dane.txt i rozdzielone
+spacjami, potem wczyta 10 kwot znajdujących się w dziesięciu kolejnych liniach pliku. Następnie program wyświetli
+kwotę, która w algorytmie zachłannym wydawania reszty wymaga najmniejszej liczby nominałów. Jeżeli jest kilka
+takich kwot, to wypisz wszystkie z nich.
+Przykład
+Jeżeli w pliku dane.txt będą zapisane liczby:
+5 2 1
+12
+20
+to program wyświetli:
+12
+gdyż kwota 12 wymaga 3 nominałów (12=2*5+2), a kwota 20 wymaga 4 nominałów (20=4*5)
+Zadanie 2
+Napisz program, który wczyta macierz M z pliku macierz.txt, wypisze maksymalną sumę elementów leżących na
+ścieżce od lewego górnego rogu do prawego dolnego, wyznaczoną algorytmem zachłannym. Można poruszać się po
+macierzy tylko w prawo i w dół. Przyjmij, że jeżeli elementy sąsiadujące, położone na prawo lub na dół od aktualnej
+wartości są równe, to wybieramy drogę w dół. Program powinien wyświetlić obliczoną maksymalną sumę oraz napis
+składający się z liter P oraz D, gdzie litera P oznacza pójście w prawo, a litera D pójście w dół.
+Przykład
+Jeżeli w pliku macierz.txt znajdowałyby się liczby:
+3 2 4
+2 4 1
+3 5 2
+to program wypisałby:
+16
+DPDP
+gdzie liczba 16 oznacza sumę elementów na ścieżce, a napis DPDP oznacza, że najpierw idziemy w dół, potem w
+prawo, potem w dół, a na koniec w prawo.
+Zadanie 3
+Napisz program, który wczyta macierz M z pliku macierz.txt, a następnie wyświetli tą macierz z zamienionymi
+kolumnami o indeksach 2 i 4.
+* podczas wypisywania uzupełnij liczby jednocyfrowe dodatkową spacją z przodu
+Zadanie 4
+Napisz program, który wczyta macierz M z pliku macierz.txt, a następnie wyświetli największą sumę wartości
+znajdujących się w jednej kolumnie oraz po spacji indeks pierwszej kolumny o największej sumie.
