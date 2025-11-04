@@ -1,0 +1,33 @@
+Zadanie 1
+Napisz program w języku Python, który wczyta nominały z pliku nominaly.txt (są to liczby w
+pierwszym wierszu pliku rozdzielone spacjami), zapyta użytkownika o podanie kwoty reszty k do
+wydania, a następnie wyświetli jaka jest najmniejsza liczby nominałów potrzebna do wydania reszty
+w podanej kwocie, wykorzystując programowanie dynamiczne:
+Np. dla kwoty 180 wynikiem działania programu będzie:
+3
+bo 180=100+40+40
+Zadanie 2
+Zmodyfikuj program z zadania 1 tak, aby wyświetlić ile i jakich nominałów należy użyć, aby wydać
+resztę w kwocie k.
+Np. dla kwoty 180 wynikiem działania programu będzie:
+1x100
+2x40
+Wskazówka:
+Stwórz tablicę przechowującą dla każdej kwoty poprzedzającą ją kwotę w algorytmie. Różnica tych
+kwot oznacza ostatni użyty nominał.
+Zadanie 3*
+Napisz program w języku Python, który wczyta nominały zapisane w pierwszej linii pliku dane.txt i
+rozdzielone spacjami, potem wczyta kwoty znajdujące się w kolejnych liniach pliku. Następnie
+program wyświetli kwotę, która w algorytmie wydawania reszty metodą dynamiczną wymaga
+najmniejszej liczby nominałów. Jeżeli jest kilka takich kwot, to wypisz wszystkie z nich.
+Przykład
+Jeżeli w pliku dane.txt będą zapisane liczby:
+10 5 4 1
+12
+18
+23
+to program wyświetli:
+
+12
+18
+bo 12 i 18 wymagają jedynie 3 nominałów
